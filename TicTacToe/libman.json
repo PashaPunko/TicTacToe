@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "@yaireo/tagify@3.21.5",
+      "destination": "wwwroot/js/yaireo/tagify/"
+    }
+  ]
+}

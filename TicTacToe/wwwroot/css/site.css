@@ -1,0 +1,103 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+border-shadow {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.bgcolor-main {
+    background-color:ghostwhite;
+}
+
+.ceil-border {
+    border: 2px solid black;
+}
+
+.center-position {
+    margin-top:10vw;
+}
+
+.tag {
+    border-radius: 15px;
+    color: white;
+    align-self:start;
+    background-color: forestgreen;
+    border: 2px solid forestgreen;
+    font-size: 1vw;
+    padding: 5px;
+    margin: 5px;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+    .tag:hover {
+        border-radius: 20px;
+        border: 10px solid forestgreen;
+    }
+
+.auth-form {
+    background-color: white;
+    border-color: black;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.5);
+}
+
+.shadow-on-hover {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+}
+    .shadow-on-hover.black-shadow:hover {
+        box-shadow: 0 0 0.7rem black;
+        z-index: 1000;
+    }
+    .shadow-on-hover.white-shadow:hover {
+        box-shadow: 0 0 1.5rem white;
+        z-index: 1000;
+    }

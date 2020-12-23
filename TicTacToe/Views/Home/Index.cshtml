@@ -1,0 +1,56 @@
+﻿<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-md-8 auth-form mt-2">
+            <div class="row justify-content-center m-3">
+                <h1 style="color:forestgreen">Tic Tac Toe</h1>
+            </div>
+            <div class="row justify-content-between align-content-center m-2">
+                <div class="col-8 align-content-center">
+                    <textarea id="tagsToFind"></textarea>
+                </div>
+                <div class="col-4 align-content-center">
+                    <button type="submit" id="find" class="btn btn-success">
+                        Find by tags
+                    </button>
+                </div>
+            </div>
+
+            <div id="games" class="row justify-content-around align-content-around m-4">
+
+            </div>
+            <div class="row m-3 justify-content-center">
+                <button type="submit" id="update" class="col-6 btn btn-success">
+                    Update Game List
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8 auth-form align-self-start m-2">
+            <div class="row justify-content-center m-2">
+                <h2>Create Game</h2>
+            </div>
+            <div class="row justify-content-center align-content-center m-2">
+                <h5 class="col-4 control-label">Name</h5>
+                <div class="col-7">
+                    <input type="text" id="createName" class="form-control" placeholder="New Game">
+                </div>
+            </div>
+            <div class="row justify-content-center align-content-center m-2">
+                <h5 class="col-4 control-label">Tags</h5>
+                <div class="col-7">
+                    <input type="text" id="createTags">
+                </div>
+            </div>
+            <div class="row justify-content-center m-2">
+                <button type="submit" id="create" class="col-6 btn btn-success">
+                    Create
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/js/yaireo/tagify/dist/tagify.min.js"></script>
+    <script src="~/js/hubConnections/lobby.js"></script>
